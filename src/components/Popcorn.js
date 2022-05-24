@@ -31,14 +31,12 @@ export default function Popcorn() {
             setPlacement("top-start");
           }}
         />
-
         <ButtonClick
           className=""
           handleClick={() => {
             setPlacement("top");
           }}
         />
-
         <ButtonClick
           className=""
           handleClick={() => {
@@ -46,7 +44,6 @@ export default function Popcorn() {
           }}
         />
       </div>
-
       <div className="flex justify-center items-center">
         <div className="flex justify-center flex-col gap-8">
           <ButtonClick
@@ -55,14 +52,12 @@ export default function Popcorn() {
               setPlacement("left-start");
             }}
           />
-
           <ButtonClick
             className=""
             handleClick={() => {
               setPlacement("left");
             }}
           />
-
           <ButtonClick
             className=""
             handleClick={() => {
@@ -70,11 +65,13 @@ export default function Popcorn() {
             }}
           />
         </div>
+
         <div id="popcorn" className="m-40"></div>
         <div id="tooltip" role="tooltip">
           POPCORN
           <div id="arrow" data-popper-arrow></div>
         </div>
+
         <div className="flex justify-center flex-col gap-8">
           <ButtonClick
             className=""
@@ -82,14 +79,12 @@ export default function Popcorn() {
               setPlacement("right-start");
             }}
           />
-
           <ButtonClick
             className=""
             handleClick={() => {
               setPlacement("right");
             }}
           />
-
           <ButtonClick
             className=""
             handleClick={() => {
@@ -98,7 +93,6 @@ export default function Popcorn() {
           />
         </div>
       </div>
-
       <div className="flex justify-center gap-8">
         <ButtonClick
           className=""
@@ -106,14 +100,12 @@ export default function Popcorn() {
             setPlacement("bottom-start");
           }}
         />
-
         <ButtonClick
           className=""
           handleClick={() => {
             setPlacement("bottom");
           }}
         />
-
         <ButtonClick
           className=""
           handleClick={() => {

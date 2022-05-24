@@ -4,8 +4,10 @@ import Popcorn from "./components/Popcorn";
 
 function App() {
   return (
-    <div className="py-8">
-      <Popcorn />
+    <div className="py-12 flex justify-center">
+      <div id="container">
+        <Popcorn />
+      </div>
     </div>
   );
 }
