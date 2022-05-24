@@ -23,7 +23,7 @@ export default function Popcorn() {
   });
 
   return (
-    <div className="container text-center overscroll-x-auto">
+    <div className="container text-center">
       <div className="flex justify-center gap-8">
         <ButtonClick
           className=""
@@ -66,10 +66,12 @@ export default function Popcorn() {
           />
         </div>
 
-        <div id="popcorn" className="m-40"></div>
-        <div id="tooltip" role="tooltip">
-          POPCORN
-          <div id="arrow" data-popper-arrow></div>
+        <div className="m-40">
+          <div id="popcorn"></div>
+          <div id="tooltip" role="tooltip">
+            POPCORN
+            <div id="arrow" data-popper-arrow></div>
+          </div>
         </div>
 
         <div className="flex justify-center flex-col gap-8">
